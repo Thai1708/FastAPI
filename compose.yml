@@ -7,7 +7,7 @@ services:
     env_file:
       - .env.compose
     ports:
-      - "443:8002"
+      - "80:8002"
     volumes:
       - ./src:/code:rw
     depends_on:
